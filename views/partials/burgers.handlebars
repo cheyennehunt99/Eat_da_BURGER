@@ -1,0 +1,13 @@
+<li>
+    {{!-- The list of burgers from the db, with buttons to devour them if they are not yet devoured, and a button to un-devour them if they are --}}
+	{{burger_name}}
+
+
+	<button {{#if devoured}}class="un-eat"{{else}}class="change-devoured"{{/if}} data-id="{{id}}" data-devoured="{{devoured}}" name={{burger_name}}>
+		{{#if devoured}}Un-Eat!{{else}}Eat da burger!{{/if}}
+	</button>
+	
+    {{!-- Button to delete burgers --}}
+    <button class="delete-burger" data-id="{{this.id}}">Destroy!</button>
+
+</li>
