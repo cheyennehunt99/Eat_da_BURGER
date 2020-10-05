@@ -14,6 +14,7 @@ const orm = {
     insertOne: function(name, devoured, cb) {
         let queryString = `INSERT INTO burgers (burger_name, devoured) VALUES (?, ?)`
         console.log(queryString);
+        console.log(name);
         name.toString();
         connection.query(queryString, [name, devoured], (err, result) => {
             if (err) throw err;

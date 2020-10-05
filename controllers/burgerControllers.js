@@ -16,7 +16,8 @@ router.get("/", (req, res) => {
 //post route ===========================================
 router.post("/api/burgers", (req, res) => {
   console.log(req.body);
-  burger.insertOne(req.body.name, req.body.devoured, (result) => {
+  console.log(req.body.name);
+  burger.insertOne(req.body.burger_name, req.body.devoured, (result) => {
     //res.json({ id: result.insertId });
     res.redirect("/");
   });
