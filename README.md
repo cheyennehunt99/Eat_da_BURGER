@@ -1,4 +1,4 @@
-# Eat_da_BURGER
+# handle-EDB
 ## Table of contents
 
 - [General info](#general-info)
@@ -8,10 +8,9 @@
 - [License](#License)
 
 
-# MySQL-EmployeeTracker
 
-## Demo
-![GIF](demo/tracker.gif)
+## Preview
+![Image](images/burger.png)
 
 
 Running node.js
@@ -28,35 +27,39 @@ Running node.js
 
 ## General info
 
-Command-line application using multiple tools to create a Content Management System (CMS) to keep track of employees work based information. 
+Deployed Heroku app using MySQL and JawsDB with timestamp. 
 
 ## Technologies
 
 - [JavaScript](https://www.javascript.com/)
 - [Node.js](https://nodejs.org/)
 - [MySQL](https://www.mysql.com/)
+- [JawsDB](https://devcenter.heroku.com/articles/jawsdb)
+- [ORM](https://www.js-data.io/docs/what-is-an-orm)
+- [Handlebars](https://handlebarsjs.com/)
+- [Heroku](https://id.heroku.com/login)
 - [package.json](https://docs.npmjs.com/creating-a-package-json-file)
 - [npm](https://www.npmjs.com/)
 ## Summary
-An employee tracker used as management based to view, add, update any information listed 
-you wish to review.
-- Departments
-- Roles
-- Employees
+Burger app created using multiple technologies to allow users to create and devour fresh burgers!
 
 ## Usage
 - `$ npm install`
 - `$ npm install mysql`
-- `$ npm install inquirer`
+- `$ npm install express`
 - `$ npm install util`
-- `$ npm install ascli`
-- `$ npm install colour`
-- `$ node server.js`
+- `$ npm install path`
+- `$ npm install --save-dev nodemon`
+- `$ npm start`
 
 
 
 ## Expectations
-![PIC](demo/employee.png)
+![GIF](images/create.gif)
+
+
+
+Link to Heroku App : https://limitless-scrubland-83787.herokuapp.com/
 
 
 
