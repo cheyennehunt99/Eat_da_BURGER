@@ -13,7 +13,6 @@
 ![Image](images/burger.png)
 
 
-Running node.js
 
 ## Table of contents
 
