@@ -1,13 +1,4 @@
 # handle-EDB
-## Table of contents
-
-- [General info](#general-info)
-- [Technologies](#Technologies)
-- [Summary](#Summary)
-- [Author](#Author)
-- [License](#License)
-
-
 
 ## Preview
 ![Image](images/burger.png)
